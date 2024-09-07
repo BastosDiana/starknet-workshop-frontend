@@ -248,7 +248,6 @@ const Page: React.FC = () => {
         <h3 className="text-2xl font-bold mb-2">Read your Contract</h3>
         <p>Balance: {readData?.toString()}</p>
         <p>Total supply: {readTotalSupply?.toString()}</p>{" "}
-        {/* Want to print the total supply here */}
         <div className="flex justify-center pt-4">
           <button
             onClick={() => dataRefetch()}
@@ -318,7 +317,7 @@ const Page: React.FC = () => {
         </div>
       </form>
 
-      {/* TransferForm Component */}
+      {/* Transfer form */}
       <form onSubmit={handleTransferSubmit} className="bg-white p-4 w-full max-w-md m-4 border-black border">
         <h3 className="text-2xl font-bold mb-2">Transfer ERC20 Tokens</h3>
         <label
