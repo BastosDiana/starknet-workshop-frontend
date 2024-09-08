@@ -1,5 +1,8 @@
 # Starknet Frontend Workshop
 
+![Screenshot 2024-09-06 at 19 20 05](https://github.com/user-attachments/assets/464107f6-3745-483d-a38d-e91dd8601985)
+
+
 Welcome to this workshop, where you'll learn how to build a frontend application using Starknet and Next.js together with the set of hooks available in Starknet-react.
 
 ## Prerequisites
